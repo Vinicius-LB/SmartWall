@@ -8,7 +8,7 @@
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(#F1F3FF, #CBD4FF);
+  background:rgb(from color red green blue);
 }
 .sidebar {
   position: fixed;
@@ -17,7 +17,7 @@ body {
   z-index: 10;
   width: 270px;
   height: 100vh;
-  background: #151A2D;
+  background: linear-gradient(180deg, #00bba5, #427f8f);
   transition: all 0.4s ease;
 }
 .sidebar.collapsed {
@@ -43,7 +43,7 @@ body {
   right: 20px;
   height: 35px;
   width: 35px;
-  color: #151A2D;
+  color: #00bba5;
   border: none;
   cursor: pointer;
   display: flex;
@@ -99,11 +99,11 @@ body {
   padding: 11px 15px;
   align-items: center;
   text-decoration: none;
-  border: 1px solid #151A2D;
+  border: 1px solid #00bba5;
   transition: 0.4s ease;
 }
 .sidebar-nav .nav-item:is(:hover, .open)>.nav-link:not(.dropdown-title) {
-  color: #151A2D;
+  color: #00bba5;
   background: #EEF2FF;
 }
 .sidebar .nav-link .nav-label {
@@ -120,7 +120,7 @@ body {
   position: absolute;
   bottom: 35px;
   width: 100%;
-  background: #151A2D;
+  background: transparent;
 }
 .sidebar-nav .nav-item {
   position: relative;
@@ -150,7 +150,7 @@ body {
   overflow-y: unset;
   pointer-events: none;
   border-radius: 0 10px 10px 0;
-  background: #151A2D;
+  background: #00bba5;
   transition: 0s;
 }
 .sidebar.collapsed .dropdown-menu:has(.dropdown-link) {
@@ -197,7 +197,7 @@ body {
     width: 42px;
     display: flex;
     color: #F1F4FF;
-    background: #151A2D;
+    background: #00bba5;
   }
   .sidebar.collapsed {
     width: 270px;

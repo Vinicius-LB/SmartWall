@@ -1,47 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Wall: Login</title>
-    <link rel="stylesheet" href="CSS/style_login.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <main>
-        <div class="nome-site">
-            <h1>Smart Wall</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Wall: Criar Conta</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="#">
+                <h2>Login</h2>
+                    <div class="entrada">
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>
+                <div class="entrada">
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="esqueceu">
+                    <label for="lembrar">
+                        <input type="checkbox" id="lembrar">
+                        <p>Lembrar</p>
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit">log In</button>
+                <div class="registrar">
+                    <p>Não tem uma conta? <a 
+                    href="criar_conta.html">Registrar</a></p>
+                </div>
+            </form>
         </div>
-        <div class="sub-titulo">
-            <p>A educação em <strong>sintonia</strong> com o amanhã</p>
-        </div>
-        <form action="">
-            <div class="titulo">
-                <h1>Realizar Login</h1>
-                <div class="barra-horizontal"></div>
-            </div>
-            <div class="campo-input">
-                <label for="login">Login: </label>
-                <input type="email" name="login" id="login" placeholder="Login">
-            </div>
-            <div class="campo-input">
-                <label for="senha">Senha: </label>
-                <input type="password" name="senha" id="senha" placeholder="Senha">
-            </div>
-            <div class="lembrar">
-                <input type="checkbox" name="lembrar" id="lembrar">
-                <label for="lembrar">Salvar Dados</label>
-            </div>
-            <button class="">Entrar</button>
-            <p>Não tenho conta?<a href="criar_conta.html">Clique Aqui!</a></p>
-
-        </form>
-    </main>
-
-</body>
-
+    </body>
 </html>

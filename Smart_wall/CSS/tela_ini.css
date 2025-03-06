@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #12b3a6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12b3a6;
+    padding: 15px;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+.notificacao {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.docentes, .materias {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.materia {
+    background: #12b3a6;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}

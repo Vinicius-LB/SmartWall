@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 500px; /* Ajuste conforme necessário */
+}
+
+.btn-entrar {
+    background-color: #12b3a6;
+    color: black;
+    font-size: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 340px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-entrar:hover {
+    background-color: #0e948c;
+}
